@@ -1,0 +1,127 @@
+:root {
+  --mainBlue: #12283b;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: 'Oswald', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+div a {
+  margin-left: 30px;
+  display: inline-block;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+div a:hover {
+  background: var(--lightBlue);
+  color: var(--mainBlue);
+}
+
+.pages {
+  text-align: right;
+}
+
+@media (max-width: 768px) {
+  nav a {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+}
+
+.text-title {
+  font-family: 'Permanent Marker', cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  color: var(--mainYellow);
+}
+
+.text-blue {
+  color: var(--lightBlue);
+}
+
+.text-bright {
+  color: var(--lightBlue);
+}
+
+.bg {
+  background: var(--mainBlue);
+}
+
+.black {
+  left: 25%;
+  right: 25%;
+  background: black;
+  opacity: 0.85;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.black input[type = "text"] {
+  border: 0;
+  background: var(--mainWhite);
+  opacity: initial;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  outline: none;
+  color: black;
+  transition: 0.25s;
+}
+
+.black input[type = "text"]:focus {
+  border-color: #E29C16;
+}
+
+.black input[type = "button"] {
+  border: 0;
+  background: var(--mainWhite);
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #E29C16;
+  padding: 14px 40px;
+  outline: none;
+  color: black;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+.black input[type = "button"]:hover {
+  background: #E29C16;
+}
+
+#main-pic {
+  width: 100%;
+  height: 500px;
+  background-position: center center;
+  top: 0;
+  bottom: 0;
+}
+
+div .first-block {
+  display: inline-block;
+  width: 300px;
+}
+
+div .second-block {
+  display: inline-block;
+  width: 250px;
+}
+
+.pluspadding {
+  padding-top: 20px;
+}
+
+.minuspadding {
+  padding-bottom: 20px;
+}
