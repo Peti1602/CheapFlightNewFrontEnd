@@ -11,8 +11,8 @@ class Flights extends Component {
                                 <div className="row blue">
                                     <input id="flyingfrom" className="flyingfrom third-block" type="text" name="" placeholder="flying from" />
                                     <input id="flyingto" className="flyingto third-block" type="text" name="" placeholder="flying to" />
-                                    <input id="departing"  className="departing third-block" type="text" name="" placeholder="departing" />
-                                    <input id="returning" className="returning third-block" type="text" name="" placeholder="returning" />
+                                    <input id="departing"  className="departing third-block" type="date" name="" placeholder="departing" />
+                                    <input id="returning" className="returning third-block" type="date" name="" placeholder="returning" />
                                     <input id="searchButton" type="button" value="Search" />
                                 </div>
                             </div>

@@ -19,8 +19,8 @@ class Main extends Component {
                     </div>
                     <div className="container">
                         <div className="row">
-                            <input id="departing"  className="departing second-block" type="text" name="" placeholder="departing" />
-                            <input id="returning" className="returning second-block" type="text" name="" placeholder="returning" />
+                            <input id="departing"  className="departing second-block" type="date" name="" placeholder="departing" />
+                            <input id="returning" className="returning second-block" type="date" name="" placeholder="returning" />
                         </div>
                     </div>
                     <div className="container">

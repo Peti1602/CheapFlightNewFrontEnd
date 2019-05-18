@@ -102,7 +102,7 @@ div .default-bg a {
 
 }
 
-.black input[type = "text"] {
+.black input[type = "text"], input[type = "date"] {
   border: 0;
   background: var(--mainWhite);
   opacity: initial;
@@ -116,7 +116,7 @@ div .default-bg a {
   transition: 0.25s;
 }
 
-.blue input[type = "text"] {
+.blue input[type = "text"], input[type = "date"] {
   border: 0;
   background: var(--mainWhite);
   opacity: initial;
@@ -130,7 +130,7 @@ div .default-bg a {
   transition: 0.25s;
 }
 
-.black input[type = "text"]:focus {
+.black input[type = "text"]:focus, input[type = "date"]:focus {
   border-color: #E29C16;
 }
 
@@ -152,7 +152,7 @@ div .default-bg a {
   background: #E29C16;
 }
 
-.blue input[type = "text"]:focus {
+.blue input[type = "text"]:focus, input[type = "date"]:focus {
   border-color: #E29C16;
 }
 
