@@ -83,6 +83,13 @@ div .default-bg h3 {
   padding-bottom: 20px;
 }
 
+div .default-bg h4 {
+  color: var(--mainWhite);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 div .default-bg a {
   margin: 0 20px 20px 20px;
 
