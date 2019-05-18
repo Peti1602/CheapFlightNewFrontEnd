@@ -4,9 +4,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import Main from './components/Main';
-import Details from './components/Details';
-import Cart from './components/Cart';
+import Flights from './components/Flights';
 import Default from './components/Default';
+import Contact from './components/Contact';
 
 class App extends Component {
 
@@ -16,8 +16,8 @@ class App extends Component {
             <Navbar/>
             <Switch>
                 <Route exact path="/" component={Main} />
-                <Route path="/details" component={Details} />
-                <Route path="/cart" component={Cart} />
+                <Route path="/contact" component={Contact} />
+                <Route path="/flights" component={Flights} />
                 <Route component={Default} />
             </Switch>
         </React.Fragment>

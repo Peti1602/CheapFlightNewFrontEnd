@@ -71,7 +71,8 @@ div a:hover {
 
 .info {
   background: var(--mainBlue);
-  margin-top: 20px;
+  margin-top: 25%;
+  margin-bottom: 25%;
   width: 100%;
 }
 

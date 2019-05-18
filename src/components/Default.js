@@ -7,7 +7,7 @@ class Default extends Component {
             <div className="container col-sm-10 col-md-8 col-lg-6">
                 <div className="row">
                     <div className="info default-bg t-algin">
-                        <Cheapflight firstname="cheapflight" lastname="info"></Cheapflight>
+                        <Cheapflight firstname="" lastname="info"></Cheapflight>
                         <h3>Page not found</h3>
                         <div>
                             <a href="/">Back to home</a>

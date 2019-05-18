@@ -10,7 +10,7 @@ class Navbar extends Component {
                 </div>
                 <div class="col-md-6 col-lg-8 pages">
                     <a href="/">home</a>
-                    <a href="/cart">contact</a>
+                    <a href="/contact">contact</a>
                 </div>
             </nav>
         );
