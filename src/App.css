@@ -34,6 +34,11 @@ div a:hover {
     display: block;
     text-align: center;
   }
+  div a {
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
 }
 
 .text-title {
@@ -62,6 +67,24 @@ div a:hover {
   opacity: 0.85;
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.info {
+  background: var(--mainBlue);
+  margin-top: 20px;
+  width: 100%;
+}
+
+div .default-bg h3 {
+  color: var(--mainWhite);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+div .default-bg a {
+  margin: 0 20px 20px 20px;
+
 }
 
 .black input[type = "text"] {
