@@ -1,6 +1,21 @@
 import React, {Component} from 'react';
+import Flight from "./Flight";
 
 class Flights extends Component {
+
+    state={
+        flights: [["BUD", "MAD", "9:40", "11:40", "Wizzair", "32 Euro"], ["BUD", "MAD", "19:40", "21:40", "Ryanair", "22 Euro"], ["BUD", "MAD", "19:40", "21:40", "Ryanair", "52 Euro"]]
+    }
+
+    addflights(){
+        let tablerows = [];
+        for(let i=0; i<this.state.flights.length; i++){
+            let flight = this.state.flights[i];
+            let newrow = <tr><Flight cityfrom={flight[0]} cityto={flight[1]} start={flight[2]} arrive={flight[3]} company={flight[4]} price={flight[5]} /></tr>
+            tablerows.push(newrow)
+        }
+        return tablerows;
+    }
 
         render() {
         return (
@@ -20,7 +35,12 @@ class Flights extends Component {
                         </div>
                     </div>
                 </div>
-                <div id="new-flight">
+                <div className="container">
+                    <div className="row">
+                        <table>
+                            {this.addflights()}
+                        </table>
+                    </div>
                 </div>
             </div>
         );
