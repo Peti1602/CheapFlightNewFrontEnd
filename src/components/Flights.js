@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 
 class Flights extends Component {
-    render() {
+
+        render() {
         return (
             <div className="container-fluid">
                 <div className="row">
@@ -10,14 +11,16 @@ class Flights extends Component {
                             <div className="container">
                                 <div className="row blue">
                                     <input id="flyingfrom" className="flyingfrom third-block" type="text" name="" placeholder="flying from" />
-                                    <input id="flyingto" className="flyingto third-block" type="text" name="" placeholder="flying to" />
-                                    <input id="departing"  className="departing third-block" type="date" name="" placeholder="departing" />
-                                    <input id="returning" className="returning third-block" type="date" name="" placeholder="returning" />
+                                    <input id="flyingto" className="flyingto" type="text" name="" placeholder="flying to" />
+                                    <input id="departing"  className="departing" type="date" name="" placeholder="departing" />
+                                    <input id="returning" className="returning" type="date" name="" placeholder="returning" />
                                     <input id="searchButton" type="button" value="Search" />
                                 </div>
                             </div>
                         </div>
                     </div>
+                </div>
+                <div id="new-flight">
                 </div>
             </div>
         );

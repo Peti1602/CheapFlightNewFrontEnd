@@ -45,6 +45,7 @@ div a:hover {
   div .blue {
     margin: 0;
     display: block;
+    text-align: center;
   }
 }
 
@@ -194,7 +195,6 @@ div .second-block {
 
 div .third-block {
   display: inline-block;
-  width: 200px;
 }
 
 .pluspadding {
@@ -208,4 +208,8 @@ div .third-block {
 .light-blue-bg {
   width: 100%;
   background: var(--lightBlue);
+}
+
+.flight {
+  border: 2px solid var(--mainYellow);
 }

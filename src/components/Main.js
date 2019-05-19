@@ -2,6 +2,11 @@ import React, {Component} from 'react';
 import pic from '../home_slider.jpg';
 
 class Main extends Component {
+
+    goto = () => {
+        this.props.history.push('/flights')
+    }
+
     render() {
         return (
             <React.Fragment>
@@ -25,7 +30,7 @@ class Main extends Component {
                     </div>
                     <div className="container">
                         <div className="row minuspadding">
-                            <input id="searchButton" className="minuspadding"  type="button" value="Search" />
+                            <input id="searchButton" onClick={this.goto} className="minuspadding"  type="button" value="Search" />
                         </div>
                     </div>
                 </div>
